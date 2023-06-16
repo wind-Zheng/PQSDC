@@ -57,7 +57,7 @@ run `./pqsdc_v1.sh` with the following command:
 ```
 
 ## Examples
-1、Compress multiple files in the /userdir/data/testdir directory using 20 CPU cores and 40GB of secure memory：
+1、Compress multiple files in the /userdir/data/testdir directory using 20 CPU cores ：
 ```sh
 ./pqsdc_v1.sh c /userdir/data/testdir 20 
 ```
