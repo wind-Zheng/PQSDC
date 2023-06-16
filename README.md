@@ -57,13 +57,13 @@ run `./pqsdc_v1.sh` with the following command:
 ```
 
 ## Examples
-1、Compress multiple files in the /userdir/data/testdir directory using 20 CPU cores ：
+1、Compress multiple files in the /userdir/data/test.quality directory using 20 CPU cores ：
 ```sh
-./pqsdc_v1.sh c /userdir/data/testdir 20 
+./pqsdc_v1.sh c /userdir/data/test.quality 20 
 ```
-2、DeCompress the /userdir/data/testdir.pmffrc file using 20 CPU cores while keeping the intermediate result file:
+2、DeCompress the /userdir/data/test.quality.partition file using 20 CPU cores while keeping the intermediate result file:
 ```sh
-./pqsdc_v1.sh d /userdir/data/testdir 20
+./pqsdc_v1.sh d /userdir/data/test.quality.partition 20
 ```
 3、Print help information:
 ```sh
