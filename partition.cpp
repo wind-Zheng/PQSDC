@@ -368,7 +368,7 @@ void decompress(std::string &inputfile){
     string in_data_1=inputfile+"/data_1.dat.PQVRC_de";
     string in_data_2=inputfile+"/data_2.dat.PQVRC_de";
     string in_partition=inputfile+"/partition_dat";
-    string out_File=inputfile.substr(0,inputfile.rfind('.'))+".pqsdc_de_v1";
+    string out_File=inputfile.substr(0,inputfile.rfind('.'))+".PQVRC_par_de";
 
     std::ifstream indata1,indata2,inpartition;
     indata1.open(in_data_1.c_str(),std::ios::in);
