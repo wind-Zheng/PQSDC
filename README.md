@@ -44,6 +44,14 @@ finally, Run the following command：
 ```
 bash install.sh
 ```
+In addition, we need to configure the operating environment of zpaq,turn to zpaq-master directory:
+```
+cd zpaq-master
+```
+Then,makefile:
+```
+make
+```
 
 ## Usage
 To run `./PQSDC`, just need to execute script`PQSDC/pqsdc_v1.sh` 
